@@ -1,6 +1,6 @@
 # PredictionIOLinReg_JobSalary
 
-# PredictionIO-MLlib-Linear Regression-Template
+
 ## Overview
 In this Job-Prediction template, we use MLLib's Linear Regression algorithm, on the publicly available data set for job salaries avaliable in kaggle
 
