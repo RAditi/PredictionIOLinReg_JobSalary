@@ -16,7 +16,7 @@ By default, the template requires the following events to be collected ( we can 
 - user $set event, which set the attributes of the user
 
 ### Input Query
-- array of features values ( 8 features)
+- array of features values ( 6 features)
 ```
 {"features": ["ID", "Job Title", "Descriptio of job", "Employing Company", "Location", "part_time/full_time/(NA)", "contract/permanent/(NA)" ]}
 ```
