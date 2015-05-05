@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "org.template.vanilla.VanillaEngine",
+  "datasource": {
+    "params" : {
+      "appId": 12
+    }
+  },
+  "algorithms": [
+    {
+      "name": "algo",
+      "params": {
+        "intercept" : 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "org.template.classification",
+  "datasource": {
+    "params" : {
+      "appId": 5
+    }
+  },
+  "algorithms": [
+    {
+      "name": "algo",
+      "params": {
+        "mult" : 1
+      }
+    }
+  ]
+}
