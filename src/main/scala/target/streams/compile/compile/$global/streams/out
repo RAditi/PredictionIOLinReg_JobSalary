@@ -1,0 +1,178 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala, /home/aditi/job_prediction_pio/src/main/scala/Preparator.scala, /home/aditi/job_prediction_pio/src/main/scala/DataSource.scala, /home/aditi/job_prediction_pio/src/main/scala/Engine.scala, /home/aditi/job_prediction_pio/src/main/scala/Serving.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala, /home/aditi/job_prediction_pio/src/main/scala/Preparator.scala, /home/aditi/job_prediction_pio/src/main/scala/DataSource.scala, /home/aditi/job_prediction_pio/src/main/scala/Engine.scala, /home/aditi/job_prediction_pio/src/main/scala/Serving.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala, /home/aditi/job_prediction_pio/src/main/scala/Preparator.scala, /home/aditi/job_prediction_pio/src/main/scala/DataSource.scala, /home/aditi/job_prediction_pio/src/main/scala/Engine.scala, /home/aditi/job_prediction_pio/src/main/scala/Serving.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /home/aditi/job_prediction_pio/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 19b623b, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes:/home/aditi/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/aditi/job_prediction_pio/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:3: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.controller.P2LAlgorithm[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:4: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.controller.Params[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:7: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.regression.LinearRegressionWithSGD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:8: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.regression.LinearRegressionModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.linalg.Vectors[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:10: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:11: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:13: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:14: not found: object grizzled[0m
+[0m[[31merror[0m] [0mimport grizzled.slf4j.Logger[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:15: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.regression.LabeledPoint[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:22: not found: type Params[0m
+[0m[[31merror[0m] [0m) extends Params[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:28: not found: type P2LAlgorithm[0m
+[0m[[31merror[0m] [0m  extends P2LAlgorithm[PreparedData, LinearRegressionModel, Query, PredictedResult] {[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:30: not found: value Logger[0m
+[0m[[31merror[0m] [0m  @transient lazy val logger = Logger[this.type][0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:32: not found: type LinearRegressionModel[0m
+[0m[[31merror[0m] [0m  def train(sc:SparkContext, data: PreparedData): LinearRegressionModel = {[0m
+[0m[[31merror[0m] [0m                                                  ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:32: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m  def train(sc:SparkContext, data: PreparedData): LinearRegressionModel = {[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Preparator.scala:6: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Preparator.scala:7: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Preparator.scala:12: not found: type RDD[0m
+[0m[[31merror[0m] [0m  val training_points: RDD[Point_Features][0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:38: not found: type LinearRegressionWithSGD[0m
+[0m[[31merror[0m] [0m    val lin = new LinearRegressionWithSGD() [0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Algorithm.scala:59: not found: type LinearRegressionModel[0m
+[0m[[31merror[0m] [0m  def predict(model: LinearRegressionModel, query: Query): PredictedResult = {[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:3: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.controller.PDataSource[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:4: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.controller.EmptyEvaluationInfo[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:5: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.controller.EmptyActualResult[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:6: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.controller.Params[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:7: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.data.storage.Event[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:8: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.data.storage.Storage[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:10: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:11: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:12: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:13: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.regression.LabeledPoint[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:14: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.linalg.Vectors[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:16: not found: object grizzled[0m
+[0m[[31merror[0m] [0mimport grizzled.slf4j.Logger[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:18: not found: type Params[0m
+[0m[[31merror[0m] [0mcase class DataSourceParams(val appId: Int) extends Params[0m
+[0m[[31merror[0m] [0m                                                    ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:21: not found: type PDataSource[0m
+[0m[[31merror[0m] [0m  extends PDataSource[TrainingData,[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:24: not found: value Logger[0m
+[0m[[31merror[0m] [0m  @transient lazy val logger = Logger[this.type][0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:27: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m  def readTraining(sc: SparkContext): TrainingData = {[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:28: not found: value Storage[0m
+[0m[[31merror[0m] [0m    val eventsDb = Storage.getPEvents()[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:37: not found: type RDD[0m
+[0m[[31merror[0m] [0m    val training_points: RDD[Point_Features] = eventsDb.aggregateProperties([0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/DataSource.scala:92: not found: type RDD[0m
+[0m[[31merror[0m] [0m  val training_points: RDD[Point_Features][0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Engine.scala:5: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.controller.IEngineFactory[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Engine.scala:6: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.controller.Engine[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Engine.scala:16: not found: type IEngineFactory[0m
+[0m[[31merror[0m] [0mobject VanillaEngine extends IEngineFactory {[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Engine.scala:18: not found: type Engine[0m
+[0m[[31merror[0m] [0m    new Engine([0m
+[0m[[31merror[0m] [0m        ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Preparator.scala:3: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.controller.PPreparator[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Preparator.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Preparator.scala:8: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.regression.LabeledPoint[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Preparator.scala:16: not found: type PPreparator[0m
+[0m[[31merror[0m] [0mclass Preparator extends PPreparator[TrainingData, PreparedData] {[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Preparator.scala:18: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m  def prepare(sc: SparkContext, trainingData: TrainingData) : PreparedData =  {[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Serving.scala:3: object prediction is not a member of package io[0m
+[0m[[31merror[0m] [0mimport io.prediction.controller.LServing[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/aditi/job_prediction_pio/src/main/scala/Serving.scala:5: not found: type LServing[0m
+[0m[[31merror[0m] [0mclass Serving extends LServing[Query, PredictedResult] {[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m50 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
